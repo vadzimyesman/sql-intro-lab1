@@ -1,6 +1,6 @@
 -- UPDATE customer
 -- SET fax=null
--- WHERE fax!=null;
+-- WHERE fax is not null;
 
 
 
@@ -8,7 +8,7 @@
 
 -- UPDATE customer
 -- SET company='Self'
--- WHERE company=null;
+-- WHERE company is null;
 
 -- SELECT*FROM customer
 
